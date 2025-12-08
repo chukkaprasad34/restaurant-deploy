@@ -1,10 +1,10 @@
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
+
 import Infoone from './components/Infoone';
 import Infotwo from './components/Infotwo';
-import Menu from './components/Menu';
+
 import Navbar from './components/Navbar';
 import Service from './components/Service';
 import Restulooks from './components/Restulooks';
@@ -27,8 +27,8 @@ function App() {
       </Routes>
       
     </BrowserRouter> */}
-      <Hero />
-      <Menu />
+      
+      
       <Service />
       
       <Infotwo />
