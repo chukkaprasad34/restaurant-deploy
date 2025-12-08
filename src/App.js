@@ -14,7 +14,7 @@ import FloatingNav from "./components/Flotingnav";
 
 function App() {
   return (
-    <BrowserRouter basename="/restaurant_project_realtime">
+    
 
     <div className="App">
       
@@ -36,7 +36,7 @@ function App() {
       < Footer />
       <FloatingNav />
     </div>
-    </BrowserRouter>
+    
   );
 }
 
