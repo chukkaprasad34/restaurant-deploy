@@ -4,12 +4,13 @@ import Footer from './components/Footer';
 
 import Infoone from './components/Infoone';
 import Infotwo from './components/Infotwo';
-
+import Menu from './components/Menu'
 import Navbar from './components/Navbar';
 import Service from './components/Service';
 import Restulooks from './components/Restulooks';
 import FAQ from "./components/Faq";
 import FloatingNav from "./components/Flotingnav";
+import Hero from './components/Hero';
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       
     </BrowserRouter> */}
       
-      
+      <Hero />
+      <Menu />
       <Service />
       
       <Infotwo />
