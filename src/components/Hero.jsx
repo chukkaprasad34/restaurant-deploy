@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="menu">
       <div className="menu_left">
-        <img src="/restu_imgs/menu_img.jpg" alt="" className='menu_img'/>
+        <img src="./restu_imgs/menu_img.jpg" alt="" className='menu_img'/>
       </div>
 
       <div className="menu_right">
