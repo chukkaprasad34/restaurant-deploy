@@ -14,21 +14,19 @@ import FloatingNav from "./components/Flotingnav";
 
 function App() {
   return (
-    
-
     <div className="App">
       
       <Navbar />
       <Infoone />
       <Restulooks />
       
-      
+      <BrowserRouter >
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/menu" element={<Menu />} />
       </Routes>
       
-    
+    </BrowserRouter>
       <Service />
       
       <Infotwo />
@@ -36,7 +34,6 @@ function App() {
       < Footer />
       <FloatingNav />
     </div>
-    
   );
 }
 
