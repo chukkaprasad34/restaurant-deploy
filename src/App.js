@@ -20,13 +20,15 @@ function App() {
       <Infoone />
       <Restulooks />
       
-      <BrowserRouter >
+      {/* <BrowserRouter >
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/menu" element={<Menu />} />
       </Routes>
       
-    </BrowserRouter>
+    </BrowserRouter> */}
+      <Hero />
+      <Menu />
       <Service />
       
       <Infotwo />
