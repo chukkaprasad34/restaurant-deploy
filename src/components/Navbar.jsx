@@ -7,9 +7,9 @@ const Navbar = () => {
       <video autoPlay muted loop className="nav-video">
     <source src="/navbg.mp4" type="video/mp4" />
       </video>
-      <img className='navlogo' src="/logo.png" alt="logo" />
+      <img className='navlogo' src="/images/logo.png" alt="logo" />
      <div className='nav_con'>
-       <img className='insta'src="/insta.webp" alt="" />
+       <img className='insta'src="/images/insta.webp" alt="" />
        <button>BOOK A TABLE</button>
      </div>
      <FaBars className='bars'/>
