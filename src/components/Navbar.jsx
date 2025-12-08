@@ -5,11 +5,11 @@ const Navbar = () => {
     <div>
       <div className='navbar'>
       <video autoPlay muted loop className="nav-video">
-    <source src="/navbg.mp4" type="video/mp4" />
+    <source src="./navbg.mp4" type="video/mp4" />
       </video>
-      <img className='navlogo' src="/images/logo.png" alt="logo" />
+      <img className='navlogo' src="./images/logo.png" alt="logo" />
      <div className='nav_con'>
-       <img className='insta'src="/images/insta.webp" alt="" />
+       <img className='insta'src="./images/insta.webp" alt="" />
        <button>BOOK A TABLE</button>
      </div>
      <FaBars className='bars'/>
@@ -19,7 +19,7 @@ const Navbar = () => {
       <h1>The magic Of Dining</h1>
       <h2>By The Sea</h2>
        <div className='nav_awar'>
-        <img className='award' src="/Best-Restaurant-Award-1-1.webp" alt="" />
+        <img className='award' src="./Best-Restaurant-Award-1-1.webp" alt="" />
        </div>
     </div>
     </div>
