@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='footer'>
-      <img className='logo' src="/logo.png" alt="logo" />
+      <img className='logo' src="./images/logo.png" alt="logo" />
       <h3>Let's Talk</h3>
       <p>Call us on +91 99 51 911 087</p>
       <p>Email us on</p>
@@ -15,7 +15,7 @@ const Footer = () => {
       <FaInstagram />
       <FaTwitter />
     </div>
-      <img className='award' src="/Best-Restaurant-Award-1-1.webp" alt="" /><br />
+      <img className='award' src="./Best-Restaurant-Award-1-1.webp" alt="" /><br />
       <button className='location'>FIND US IN GOOGLE MAPS </button>
 
     </div>
