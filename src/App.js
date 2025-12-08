@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -19,12 +19,12 @@ function App() {
         <Navbar />
         <Infoone />
         <Restulooks />
-        <BrowserRouter basename="/restaurant_project_realtime">
+        <HashRouter>
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/menu" element={<Menu />} />
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
         <Service />
         <Infotwo />
         <FAQ />
