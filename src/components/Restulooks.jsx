@@ -2,9 +2,9 @@ import React, { useState, useEffect, useCallback } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const imageSets = [
-  ["/restu_imgs/out1.jpg", "/restu_imgs/out2.jpg", "/restu_imgs/out3.webp"],
-  ["/restu_imgs/indore.avif", "/restu_imgs/indore1.jpg", "/restu_imgs/indore3.avif"], 
-  ["/restu_imgs/bar1.avif", "/restu_imgs/bar2.avif", "/restu_imgs/bar3.avif"]  
+  ["./restu_imgs/out1.jpg", "./restu_imgs/out2.jpg", "./restu_imgs/out3.webp"],
+  ["./restu_imgs/indore.avif", "./restu_imgs/indore1.jpg", "./restu_imgs/indore3.avif"], 
+  ["./restu_imgs/bar1.avif", "./restu_imgs/bar2.avif", "./restu_imgs/bar3.avif"]  
 ];
 
 const titles = ["Outdoor", "Indoor", "Bar"];

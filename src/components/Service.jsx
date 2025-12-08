@@ -5,19 +5,19 @@ const ImageCards = () => {
   const cards = [
     {
       id: 1,
-      img: "/service_cards/ser1.jpg",
+      img: "./service_cards/ser1.jpg",
       title: "Get A Platter!",
       desc: "Try a free taste of our kebabs.If you love it, get a platter"
     },
     {
       id: 2,
-      img: "/service_cards/ser2.jpg",
+      img: "./service_cards/ser2.jpg",
       title: "Candlelight",
       desc: "Candle light celebration awaits.Make it magical"
     },
     {
       id: 3,
-      img: "/service_cards/ser3.webp",
+      img: "./service_cards/ser3.webp",
       title: "Moments",
       desc: "Moments to Remember"
     }
